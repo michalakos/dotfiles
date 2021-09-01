@@ -22,6 +22,10 @@ install git
 install tmux
 install vim
 install wget
+install zsh
+
+chsh -s $(which zsh)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 sudo apt upgrade -y
 sudo apt autoremove -y
