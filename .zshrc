@@ -110,6 +110,7 @@ source $ZSH/oh-my-zsh.sh
 alias gs="git status"
 alias gc="git commit"
 alias ga="git add"
+alias glog="git log --all --graph --decorate --oneline"
 alias mv="mv -i"
 alias v="vim"
 alias sl=ls

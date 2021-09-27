@@ -1,3 +1,7 @@
 [user]
 	email = michalisvas99@gmail.com
 	name = Michalis Vasilakos
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
