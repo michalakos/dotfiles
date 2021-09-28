@@ -1,9 +1,5 @@
 #!/bin/bash
 
-cp -r .config ${HOME}
-cp .zshrc ${HOME}
-cp .vimrc ${HOME}
-
 sudo apt update && sudo apt full-upgrade -y
 
 install() {
@@ -31,3 +27,9 @@ git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-m
 
 sudo apt upgrade -y
 sudo apt autoremove -y
+
+cp .gitconfig ${HOME}
+cp .p10k.zsh ${HOME}
+cp .tmux.conf ${HOME}
+cp .zshrc ${HOME}
+cp .vimrc ${HOME}
