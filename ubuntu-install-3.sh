@@ -25,3 +25,9 @@ sudo apt install texlive-full
 sudo apt install texmaker
 # install vlc
 sudo apt install vlc
+# install libreoffice
+sudo apt install libreoffice
+
+# update
+sudo apt update
+sudo apt upgrade -y
