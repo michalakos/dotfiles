@@ -11,6 +11,7 @@ install() {
 }
 
 # Basics
+cd ~
 install git
 install tmux
 install vim
